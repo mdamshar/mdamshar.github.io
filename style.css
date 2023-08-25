@@ -1,0 +1,21 @@
+
+.container img {
+    float: right;
+    width: 100px;
+    height: 100px;
+    background: #555;
+    margin-right: 10px;
+  }
+  
+  .container h1 {
+    margin:10px:
+    padding:5px
+    padding:auto
+    position: relative;
+    top: 18px;
+    left: 10px;
+  }
+
+  a{
+    margin: 20px;
+  }
