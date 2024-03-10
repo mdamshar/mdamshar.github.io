@@ -33,6 +33,7 @@ body {
   @include main-font;
   color: #000000;
   background-color: #ffffff;
+  overflow: none;
 }
 
 .layout_padding {
@@ -250,7 +251,6 @@ a:focus {
       border: 3px solid $white;
       border-radius: 100%;
       opacity: 1;
-
     }
   }
 }
