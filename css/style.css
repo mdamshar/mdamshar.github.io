@@ -129,11 +129,19 @@ a,
 a:hover,
 a:focus {
   text-decoration: none;
+  
 }
 
 a:hover,
 a:focus {
   color: initial;
+}
+
+.navbar-nav li:hover{
+ padding: 0px;
+  border: 1px solid white;
+  border-radius: 100px;
+  box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.938);
 }
 
 .btn,

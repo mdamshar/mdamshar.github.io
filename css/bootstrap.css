@@ -10038,9 +10038,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 
 /* ADD fire event style*/
-body {
+.hero_area,.target_section,.info_section
+{
   margin: 0;
-  overflow:none;
+  overflow:hidden;
 
   }
 .fire-container {
