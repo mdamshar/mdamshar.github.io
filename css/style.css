@@ -46,6 +46,7 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
+  align-self: center;
 }
 
 .heading_container h2::before,
@@ -728,21 +729,38 @@ a:focus {
   color: #fbfcfd;
 }
 
-.ramadhanhead{
-  text-align: center;
-}
+
 .ramadhan ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 30px;
   justify-content: center;
   align-items: center;
   margin: 20px;
 }
 .ramadhan ul li img{
-  width: 50vh;
+  width: 100px;
+  height: 100px;
   box-shadow: 3px 3px 5px;
+}
+
+.ramadhan ul li img:hover{
+  animation-name: ramzan;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes ramzan {
+from{
+
+}
+to{
+  scale: 2.5;
+}  
 }
 
 
