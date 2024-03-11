@@ -728,6 +728,24 @@ a:focus {
   color: #fbfcfd;
 }
 
+.ramadhanhead{
+  text-align: center;
+}
+.ramadhan ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.ramadhan ul li img{
+  width: 50vh;
+  box-shadow: 3px 3px 5px;
+}
+
+
 /* end footer section*/
 
   /*# sourceMappingURL=style.css.map */
