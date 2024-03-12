@@ -130,7 +130,7 @@ a,
 a:hover,
 a:focus {
   text-decoration: none;
-  
+
 }
 
 a:hover,
@@ -138,8 +138,8 @@ a:focus {
   color: initial;
 }
 
-.navbar-nav li:hover{
- padding: 0px;
+.navbar-nav li:hover {
+  padding: 0px;
   border: 1px solid white;
   border-radius: 100px;
   box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.938);
@@ -737,33 +737,116 @@ a:focus {
   gap: 30px;
   justify-content: center;
   align-items: center;
-  margin: 20px;
 }
-.ramadhan ul li img{
+
+.ramadhan ul li .r{
   width: 100px;
   height: 100px;
   box-shadow: 3px 3px 5px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.r1{
+  background-image: url(/images/ramadhan/1R.png);
+}
+.r2{
+  background-image: url(/images/ramadhan/2R.png);
+}.r3{
+  background-image: url(/images/ramadhan/3R.png);
+}.r4{
+  background-image: url(/images/ramadhan/4R.png);
+}.r5{
+  background-image: url(/images/ramadhan/5R.png);
+}.r6{
+  background-image: url(/images/ramadhan/6R.png);
+}.r7{
+  background-image: url(/images/ramadhan/7R.png);
+}.r8{
+  background-image: url(/images/ramadhan/8R.png);
+}.r9{
+  background-image: url(/images/ramadhan/9R.png);
+}.r10{
+  background-image: url(/images/ramadhan/10R.png);
+}.r11{
+  background-image: url(/images/ramadhan/11R.png);
+}.r12{
+  background-image: url(/images/ramadhan/12R.png);
+}.r13{
+  background-image: url(/images/ramadhan/13R.png);
+}.r14{
+  background-image: url(/images/ramadhan/14R.png);
+}.r15{
+  background-image: url(/images/ramadhan/15R.png);
+}.r16{
+  background-image: url(/images/ramadhan/16R.png);
+}.r17{
+  background-image: url(/images/ramadhan/17R.png);
+}.r18{
+  background-image: url(/images/ramadhan/18R.png);
+}.r19{
+  background-image: url(/images/ramadhan/19R.png);
+}.r20{
+  background-image: url(/images/ramadhan/20R.png);
+}.r21{
+  background-image: url(/images/ramadhan/21R.png);
+}.r22{
+  background-image: url(/images/ramadhan/22R.png);
+}.r23{
+  background-image: url(/images/ramadhan/23R.png);
+}.r24{
+  background-image: url(/images/ramadhan/24R.png);
+}.r25{
+  background-image: url(/images/ramadhan/25R.png);
+}.r26{
+  background-image: url(/images/ramadhan/26R.png);
+}.r27{
+  background-image: url(/images/ramadhan/27R.png);
+}.r28{
+  background-image: url(/images/ramadhan/28R.png);
+}.r29{
+  background-image: url(/images/ramadhan/29R.png);
+}.r30{
+  background-image: url(/images/ramadhan/30R.png);
 }
 
-.ramadhan ul li img:hover{
+
+.ramadhan ul li a{
+ position: relative;
+ top: 65px;
+ left: 19px;
+  font-size: 10px;
+  padding: 0px 5px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  color: #000000;
+  text-decoration: none;
+}
+
+.ramadhan ul li a:hover{
+  background-color: black;
+  color: #ffffff;
+}
+
+.ramadhan ul li:hover {
   animation-name: ramzan;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-timing-function: ease-out;
-
   animation-fill-mode: forwards;
-
+  animation-delay: 0.5s;
+  box-shadow: none;
 }
 
 @keyframes ramzan {
-from{
+  0% {
+    transform: scale(1.0);
+  }
 
+  100% {
+    transform: scale(2);
+  }
 }
-to{
-  scale: 2.5;
-}  
-}
-
 
 /* end footer section*/
 
-  /*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
