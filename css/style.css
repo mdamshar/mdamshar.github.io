@@ -121,7 +121,6 @@ body {
   height: 7px;
   border-radius: 100%;
   background-color: #ffffff;
-
   list-style: none;
 }
 
@@ -139,12 +138,19 @@ a:focus {
 }
 
 .navbar-nav li:hover {
-  padding: 0px;
-  border: 1px solid white;
-  border-radius: 100px;
-  box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.938);
+animation-name: anime ;
+animation-duration: 0.5s;
+animation-timing-function: ease;
+animation-fill-mode: forwards;
+margin: 0;
 }
 
+@keyframes anime {
+  from{}
+  to{
+    transform: scale(1.5);
+  }
+}
 .btn,
 .btn:focus {
   outline: none !important;
