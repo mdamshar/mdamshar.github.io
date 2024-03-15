@@ -748,7 +748,6 @@ margin: 0;
 .ramadhan ul li .r{
   width: 100px;
   height: 100px;
-  box-shadow: 3px 3px 5px;
   border-radius: 10px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -764,6 +763,7 @@ margin: 0;
   background-image: url(/images/ramadhan/4R.png);
 }.r5{
   background-image: url(/images/ramadhan/5R.png);
+  box-shadow: 3px 3px 5px;
 }.r6{
   background-image: url(/images/ramadhan/6R.png);
 }.r7{
@@ -815,8 +815,6 @@ margin: 0;
 }.r30{
   background-image: url(/images/ramadhan/30R.png);
 }
-
-
 .ramadhan ul li a{
  position: relative;
  top: 65px;
