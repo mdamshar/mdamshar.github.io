@@ -10060,10 +10060,28 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 50%;
   animation: fireAnimation 1s ease-out;
 }
+@font-face {
+  font-family:Alwi;
+  src: url(/Alvi\ Nastaleeq\ Regular.ttf);
+}
+.calendar{
+
+ display: flex;
+ flex-wrap: wrap;
+ position: relative;
+ top: 3px;
+gap: 10px;
+font-family: Alwi;
+font-size: 30px;
+margin: 10px;
+left: 70px;
+    }
+
 @keyframes fireAnimation {
   to {
     transform: scale(5);
     opacity: 0;
   }
+
 
 /*# sourceMappingURL=bootstrap.css.map */
