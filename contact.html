@@ -114,6 +114,9 @@
             // Display Gregorian date
             document.getElementById('gregorianDate').textContent = today.toLocaleDateString();
     
+              // Adjust the date to one day back
+        today.setDate(today.getDate() - 1);
+        
             // Convert Gregorian date to Hijri date
             var hijriDate = new Intl.DateTimeFormat('ar-u-ca-islamic', { day: 'numeric', month: 'long', year: 'numeric' }).format(today);
             
