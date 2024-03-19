@@ -10065,23 +10065,33 @@ a.text-dark:hover, a.text-dark:focus {
   src: url(/Alvi\ Nastaleeq\ Regular.ttf);
 }
 .calendar{
-
- display: flex;
- flex-wrap: wrap;
- position: relative;
- top: 3px;
-gap: 10px;
 font-family: Alwi;
-font-size: 30px;
+font-size: 3550px !important;
 margin: 10px;
 
     }
+.calendar h3{
+  text-align:center;
+  display: block important;
+}
+    #dua {
+      font: 1.5em Alwi;
+      text-align: center !important;
+      border-bottom: 2px solid var(--blue);
+      border-top: 2px solid var(--blue);
+      margin: 0 20vw;
+      padding: 30px;
+      
+    }
 
+
+    
 @keyframes fireAnimation {
   to {
     transform: scale(5);
     opacity: 0;
   }
+
 
 
 /*# sourceMappingURL=bootstrap.css.map */

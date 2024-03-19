@@ -101,27 +101,29 @@
         <a aria-label="Chat on WhatsApp" href="https://wa.me/919060419628?text=i like your website"> <img alt="Chat on WhatsApp" width="70%" src="images/WhatsAppButtonGreenSmall.png" />
 <a /> -->
 
-        <h2>Ramadhan Time Sehri & iftar (Khagaria)</h2>
-        <div class="calendar">
-        <h3>Today's date in Gregorian calendar is: <span id="gregorianDate"></span></h3>
-        <h3>آج کی عربی تاریخ : (ہجری تاریخ): <span id="arabicDate"></span></h3>
-    </div>
+        <h2>Ramadhan Time Sehri & iftar (Khagaria) <br>
+          <div class="calendar">
+            <h3>Today's date in Gregorian calendar is: <span id="gregorianDate"></span></h3>
+            <h3>آج کی عربی تاریخ : (ہجری تاریخ): <span id="arabicDate"></span></h3>
+          </div>
+        </h2>
+       
         <!-- Your JavaScript code here -->
         <script>
-            // Get today's date
-            var today = new Date();
-            
-            // Display Gregorian date
-            document.getElementById('gregorianDate').textContent = today.toLocaleDateString();
-    
-              // Adjust the date to one day back
-        today.setDate(today.getDate() - 1);
-        
-            // Convert Gregorian date to Hijri date
-            var hijriDate = new Intl.DateTimeFormat('ar-u-ca-islamic', { day: 'numeric', month: 'long', year: 'numeric' }).format(today);
-         
-            // Display Hijri date
-            document.getElementById('arabicDate').textContent = hijriDate;
+          // Get today's date
+          var today = new Date();
+
+          // Display Gregorian date
+          document.getElementById('gregorianDate').textContent = today.toLocaleDateString();
+
+          // Adjust the date to one day back
+          today.setDate(today.getDate() - 1);
+
+          // Convert Gregorian date to Hijri date
+          var hijriDate = new Intl.DateTimeFormat('ar-u-ca-islamic', { day: 'numeric', month: 'long', year: 'numeric' }).format(today);
+
+          // Display Hijri date
+          document.getElementById('arabicDate').textContent = hijriDate;
         </script>
         <div class="ramadhan">
           <ul>
@@ -251,7 +253,14 @@
 
       </div>
     </div>
+    <div id="dua"><a href="/قرآن بخسنے کا طریقہ.pdf" target="_blank">قرآن
+      شریف کو بخشنے کا طریقہ و دعا ابھی ڈونلوڈ کریں ۔</a>
+      <br>
+    <a href="/قرآن بخسنے کا طریقہ.pdf" download="قرآن بخسنے کا طریقہ_محتاج دعا - مولانا محمّد سفیان ">Click & Download</a>
+    </div>
   </section>
+
+
 
   <!-- end work section -->
 
