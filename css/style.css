@@ -49,7 +49,7 @@ body {
   align-self: center;
 }
 
-.heading_container h2::before,
+/* .heading_container h2::before,
 .heading_container h2::after {
   content: "";
   position: absolute;
@@ -57,7 +57,7 @@ body {
   width: 40px;
   height: 1px;
   background-color: #fec016;
-}
+} */
 
 .heading_container h2::before {
   left: -5px;
