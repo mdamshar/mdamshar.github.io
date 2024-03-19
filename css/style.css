@@ -330,7 +330,7 @@ margin: 0;
   background-size: cover;
 }
 
-.do_section .do_container .arrow-start::before {
+/* .do_section .do_container .arrow-start::before {
   background-image: url(../images/arrow-start.png);
 }
 
@@ -340,7 +340,7 @@ margin: 0;
 
 .do_section .do_container .arrow-end::before {
   background-image: url(../images/arrow-end.png);
-}
+} */
 
 .who_section .row {
   -webkit-box-align: center;
