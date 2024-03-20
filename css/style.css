@@ -848,6 +848,7 @@ margin: 0;
   opacity: 0.2;
   min-width: 100%;
   min-height: 100%;
+  z-index: -1;
 }
 
 .notification{
