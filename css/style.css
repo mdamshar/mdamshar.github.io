@@ -841,6 +841,22 @@ margin: 0;
   box-shadow: none;
 }
 
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.2;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.notification{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
 @keyframes ramzan {
   0% {
     transform: scale(1.0);
