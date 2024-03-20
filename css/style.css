@@ -857,6 +857,25 @@ margin: 0;
   flex-wrap: wrap;
   overflow: auto;
 }
+.juma{
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  overflow:scroll;
+  position: relative;
+}
+.juma iframe{
+  box-shadow: 3px 3px 4px 0px;
+  margin-top: 10px;
+}
+.juma span{
+  font: 1.5em sans-serif;
+text-align: center;
+position: relative;
+bottom: 44px;
+}
+
+
 
 @keyframes ramzan {
   0% {
