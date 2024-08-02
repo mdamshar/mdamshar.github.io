@@ -889,6 +889,17 @@ bottom: 44px;
   }
 }
 
+
+#shop_poster{
+  background-image: url("/images/COMMON\ SERVICES\ CENTRE.svg");
+  background-size: cover;
+  width: 75vw;
+  height: 58vw;
+  background-position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* end footer section*/
 
 /*# sourceMappingURL=style.css.map */
