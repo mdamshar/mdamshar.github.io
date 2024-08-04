@@ -4459,3 +4459,20 @@ function createFire(x, y) {
       fire.remove();
     }, 1000);
 }
+
+function showImageModal(imageSrc) {
+  var modal = document.getElementById("imageModal");
+  var modalImg = document.getElementById("modalImage");
+  modal.style.display = "block";
+  modalImg.src = imageSrc;
+}
+
+function closeModal() {
+  var modal = document.getElementById("imageModal");
+  modal.style.display = "none";
+}
+
+// Ensure modal is hidden on page load
+document.addEventListener('DOMContentLoaded', (event) => {
+  closeModal();
+});
