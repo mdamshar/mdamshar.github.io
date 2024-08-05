@@ -962,6 +962,10 @@ bottom: 44px;
 }
 /* end footer section*/
 
-
-
+#textField{
+  width: 60%;
+  height: 60%;
+  background-color: #353434;
+  
+}
 /*# sourceMappingURL=style.css.map */

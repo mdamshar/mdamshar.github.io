@@ -4476,3 +4476,10 @@ function closeModal() {
 document.addEventListener('DOMContentLoaded', (event) => {
   closeModal();
 });
+
+
+function newslater() {
+  var text = document.getElementById("textField");
+  text.style.display = "block";
+}
+
